@@ -59,7 +59,7 @@ func (*Nothing) Descriptor() ([]byte, []int) {
 
 type ChatMessage struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
-	Id            string                 `protobuf:"bytes,1,opt,name=id,proto3" json:"id,omitempty"`
+	Id            uint64                 `protobuf:"varint,1,opt,name=id,proto3" json:"id,omitempty"`
 	Timestamp     uint64                 `protobuf:"varint,2,opt,name=timestamp,proto3" json:"timestamp,omitempty"`
 	unknownFields protoimpl.UnknownFields
 	sizeCache     protoimpl.SizeCache
@@ -95,11 +95,11 @@ func (*ChatMessage) Descriptor() ([]byte, []int) {
 	return file_grpc_mutual_exclusion_proto_rawDescGZIP(), []int{1}
 }
 
-func (x *ChatMessage) GetId() string {
+func (x *ChatMessage) GetId() uint64 {
 	if x != nil {
 		return x.Id
 	}
-	return ""
+	return 0
 }
 
 func (x *ChatMessage) GetTimestamp() uint64 {
@@ -116,7 +116,7 @@ const file_grpc_mutual_exclusion_proto_rawDesc = "" +
 	"\x1bgrpc/mutual_exclusion.proto\"\t\n" +
 	"\aNothing\";\n" +
 	"\vChatMessage\x12\x0e\n" +
-	"\x02id\x18\x01 \x01(\tR\x02id\x12\x1c\n" +
+	"\x02id\x18\x01 \x01(\x04R\x02id\x12\x1c\n" +
 	"\ttimestamp\x18\x02 \x01(\x04R\ttimestamp2;\n" +
 	"\vChatService\x12,\n" +
 	"\n" +
