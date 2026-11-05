@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.36.12
 // 	protoc        v7.36.0
-// source: grpc/mutual_exclution.proto
+// source: grpc/mutual_exclusion.proto
 
 package chitchat
 
@@ -29,7 +29,7 @@ type Nothing struct {
 
 func (x *Nothing) Reset() {
 	*x = Nothing{}
-	mi := &file_grpc_mutual_exclution_proto_msgTypes[0]
+	mi := &file_grpc_mutual_exclusion_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -41,7 +41,7 @@ func (x *Nothing) String() string {
 func (*Nothing) ProtoMessage() {}
 
 func (x *Nothing) ProtoReflect() protoreflect.Message {
-	mi := &file_grpc_mutual_exclution_proto_msgTypes[0]
+	mi := &file_grpc_mutual_exclusion_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -54,21 +54,20 @@ func (x *Nothing) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Nothing.ProtoReflect.Descriptor instead.
 func (*Nothing) Descriptor() ([]byte, []int) {
-	return file_grpc_mutual_exclution_proto_rawDescGZIP(), []int{0}
+	return file_grpc_mutual_exclusion_proto_rawDescGZIP(), []int{0}
 }
 
 type ChatMessage struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
-	Username      string                 `protobuf:"bytes,1,opt,name=username,proto3" json:"username,omitempty"`
-	Message       string                 `protobuf:"bytes,2,opt,name=message,proto3" json:"message,omitempty"`
-	Timestamp     uint64                 `protobuf:"varint,3,opt,name=timestamp,proto3" json:"timestamp,omitempty"`
+	Id            string                 `protobuf:"bytes,1,opt,name=id,proto3" json:"id,omitempty"`
+	Timestamp     uint64                 `protobuf:"varint,2,opt,name=timestamp,proto3" json:"timestamp,omitempty"`
 	unknownFields protoimpl.UnknownFields
 	sizeCache     protoimpl.SizeCache
 }
 
 func (x *ChatMessage) Reset() {
 	*x = ChatMessage{}
-	mi := &file_grpc_mutual_exclution_proto_msgTypes[1]
+	mi := &file_grpc_mutual_exclusion_proto_msgTypes[1]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -80,7 +79,7 @@ func (x *ChatMessage) String() string {
 func (*ChatMessage) ProtoMessage() {}
 
 func (x *ChatMessage) ProtoReflect() protoreflect.Message {
-	mi := &file_grpc_mutual_exclution_proto_msgTypes[1]
+	mi := &file_grpc_mutual_exclusion_proto_msgTypes[1]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -93,19 +92,12 @@ func (x *ChatMessage) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ChatMessage.ProtoReflect.Descriptor instead.
 func (*ChatMessage) Descriptor() ([]byte, []int) {
-	return file_grpc_mutual_exclution_proto_rawDescGZIP(), []int{1}
+	return file_grpc_mutual_exclusion_proto_rawDescGZIP(), []int{1}
 }
 
-func (x *ChatMessage) GetUsername() string {
+func (x *ChatMessage) GetId() string {
 	if x != nil {
-		return x.Username
-	}
-	return ""
-}
-
-func (x *ChatMessage) GetMessage() string {
-	if x != nil {
-		return x.Message
+		return x.Id
 	}
 	return ""
 }
@@ -117,38 +109,37 @@ func (x *ChatMessage) GetTimestamp() uint64 {
 	return 0
 }
 
-var File_grpc_mutual_exclution_proto protoreflect.FileDescriptor
+var File_grpc_mutual_exclusion_proto protoreflect.FileDescriptor
 
-const file_grpc_mutual_exclution_proto_rawDesc = "" +
+const file_grpc_mutual_exclusion_proto_rawDesc = "" +
 	"\n" +
-	"\x1bgrpc/mutual_exclution.proto\"\t\n" +
-	"\aNothing\"a\n" +
-	"\vChatMessage\x12\x1a\n" +
-	"\busername\x18\x01 \x01(\tR\busername\x12\x18\n" +
-	"\amessage\x18\x02 \x01(\tR\amessage\x12\x1c\n" +
-	"\ttimestamp\x18\x03 \x01(\x04R\ttimestamp2;\n" +
+	"\x1bgrpc/mutual_exclusion.proto\"\t\n" +
+	"\aNothing\";\n" +
+	"\vChatMessage\x12\x0e\n" +
+	"\x02id\x18\x01 \x01(\tR\x02id\x12\x1c\n" +
+	"\ttimestamp\x18\x02 \x01(\x04R\ttimestamp2;\n" +
 	"\vChatService\x12,\n" +
 	"\n" +
 	"ChatStream\x12\f.ChatMessage\x1a\f.ChatMessage(\x010\x01B\x18Z\x16chitchat/grpc/chitchatb\x06proto3"
 
 var (
-	file_grpc_mutual_exclution_proto_rawDescOnce sync.Once
-	file_grpc_mutual_exclution_proto_rawDescData []byte
+	file_grpc_mutual_exclusion_proto_rawDescOnce sync.Once
+	file_grpc_mutual_exclusion_proto_rawDescData []byte
 )
 
-func file_grpc_mutual_exclution_proto_rawDescGZIP() []byte {
-	file_grpc_mutual_exclution_proto_rawDescOnce.Do(func() {
-		file_grpc_mutual_exclution_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_grpc_mutual_exclution_proto_rawDesc), len(file_grpc_mutual_exclution_proto_rawDesc)))
+func file_grpc_mutual_exclusion_proto_rawDescGZIP() []byte {
+	file_grpc_mutual_exclusion_proto_rawDescOnce.Do(func() {
+		file_grpc_mutual_exclusion_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_grpc_mutual_exclusion_proto_rawDesc), len(file_grpc_mutual_exclusion_proto_rawDesc)))
 	})
-	return file_grpc_mutual_exclution_proto_rawDescData
+	return file_grpc_mutual_exclusion_proto_rawDescData
 }
 
-var file_grpc_mutual_exclution_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
-var file_grpc_mutual_exclution_proto_goTypes = []any{
+var file_grpc_mutual_exclusion_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
+var file_grpc_mutual_exclusion_proto_goTypes = []any{
 	(*Nothing)(nil),     // 0: Nothing
 	(*ChatMessage)(nil), // 1: ChatMessage
 }
-var file_grpc_mutual_exclution_proto_depIdxs = []int32{
+var file_grpc_mutual_exclusion_proto_depIdxs = []int32{
 	1, // 0: ChatService.ChatStream:input_type -> ChatMessage
 	1, // 1: ChatService.ChatStream:output_type -> ChatMessage
 	1, // [1:2] is the sub-list for method output_type
@@ -158,26 +149,26 @@ var file_grpc_mutual_exclution_proto_depIdxs = []int32{
 	0, // [0:0] is the sub-list for field type_name
 }
 
-func init() { file_grpc_mutual_exclution_proto_init() }
-func file_grpc_mutual_exclution_proto_init() {
-	if File_grpc_mutual_exclution_proto != nil {
+func init() { file_grpc_mutual_exclusion_proto_init() }
+func file_grpc_mutual_exclusion_proto_init() {
+	if File_grpc_mutual_exclusion_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_grpc_mutual_exclution_proto_rawDesc), len(file_grpc_mutual_exclution_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_grpc_mutual_exclusion_proto_rawDesc), len(file_grpc_mutual_exclusion_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   2,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_grpc_mutual_exclution_proto_goTypes,
-		DependencyIndexes: file_grpc_mutual_exclution_proto_depIdxs,
-		MessageInfos:      file_grpc_mutual_exclution_proto_msgTypes,
+		GoTypes:           file_grpc_mutual_exclusion_proto_goTypes,
+		DependencyIndexes: file_grpc_mutual_exclusion_proto_depIdxs,
+		MessageInfos:      file_grpc_mutual_exclusion_proto_msgTypes,
 	}.Build()
-	File_grpc_mutual_exclution_proto = out.File
-	file_grpc_mutual_exclution_proto_goTypes = nil
-	file_grpc_mutual_exclution_proto_depIdxs = nil
+	File_grpc_mutual_exclusion_proto = out.File
+	file_grpc_mutual_exclusion_proto_goTypes = nil
+	file_grpc_mutual_exclusion_proto_depIdxs = nil
 }

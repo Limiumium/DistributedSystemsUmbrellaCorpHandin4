@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.6.2
 // - protoc             v7.36.0
-// source: grpc/mutual_exclution.proto
+// source: grpc/mutual_exclusion.proto
 
 package chitchat
 
@@ -111,5 +111,5 @@ var ChatService_ServiceDesc = grpc.ServiceDesc{
 			ClientStreams: true,
 		},
 	},
-	Metadata: "grpc/mutual_exclution.proto",
+	Metadata: "grpc/mutual_exclusion.proto",
 }
