@@ -2,11 +2,17 @@ package main
 
 import (
 	"fmt"
+	"net"
+	"os"
+	"os/signal"
 	"strconv"
 	"sync"
+	"syscall"
 	"time"
 
 	pb "chitchat/grpc"
+
+	"google.golang.org/grpc"
 )
 
 type Server struct {
@@ -22,7 +28,47 @@ type Server struct {
 }
 
 func main() {
+	var MAX_NB_NODES = 10
+	server := &Server{}
+	var listener net.Listener
+	var err error
+	for i := 0; i < MAX_NB_NODES; i++ {
+		address := "localhost:505" + strconv.Itoa(i)
+		listener, err = net.Listen("tcp", address)
+		if err != nil {
+			fmt.Println(address + " is already in use")
+			continue
+		} else {
+			server.id = uint64(i)
+			fmt.Println("using: " + address)
+			break
+		}
+	}
 
+	if listener == nil {
+		fmt.Println("All nodes are in use. Aborting...")
+		return
+	}
+
+	grpcServer := grpc.NewServer()
+
+	pb.RegisterChatServiceServer(grpcServer, server)
+
+	//app termination listener
+	closeChannel := make(chan os.Signal, 1)
+	signal.Notify(
+		closeChannel,
+		os.Interrupt,    // Ctrl+C
+		syscall.SIGTERM, // window close
+	)
+
+	go func() {
+		<-closeChannel
+
+		grpcServer.Stop()
+	}()
+
+	grpcServer.Serve(listener)
 }
 
 func initialize(s *Server) {
