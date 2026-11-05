@@ -39,11 +39,17 @@ func enter(s *Server) {
 	//Sends a request to all other processes
 	for _, clientStream := range s.requestStreams {
 		clientStream.Send(msg)
+		s.timeMu.Lock()
+		s.lamportTime++
+		s.timeMu.Unlock()
 	}
 
 	//Waits for all processes to grant the request
 	for _, clientStream := range s.grantStreams {
 		clientStream.Recv()
+		s.timeMu.Lock()
+		s.lamportTime = max(s.lamportTime, msg.Timestamp) + 1
+		s.timeMu.Unlock()
 	}
 
 	//Access the Critical Section
@@ -60,6 +66,9 @@ func receive(s *Server, id uint64) {
 		(s.state == "WANTED" && compare_priority(s, msg)) {
 		s.queue = append(s.queue, s.grantStreams[msg.Id])
 	} else {
+		s.timeMu.Lock()
+		s.lamportTime = max(s.lamportTime, msg.Timestamp) + 1
+		s.timeMu.Unlock()
 		reply := &pb.ChatMessage{
 			Id:        s.id,
 			Timestamp: s.lamportTime,
@@ -77,15 +86,21 @@ func exit(s *Server) {
 	}
 	for _, clientStream := range s.queue {
 		clientStream.Send(reply)
+		s.timeMu.Lock()
+		s.lamportTime++
+		s.timeMu.Unlock()
 	}
 
 	//Empty the queue
-
+	s.queue = nil
 }
 
 func access_cs(s *Server) {
 	//The process accesses the Critical Section (here it just prints to the terminal)
 	fmt.Println("Process " + strconv.FormatUint(s.id, 10) + " accessed the Critical Section.")
+	s.timeMu.Lock()
+	s.lamportTime++
+	s.timeMu.Unlock()
 	time.Sleep(3 * time.Second)
 	exit(s)
 }
