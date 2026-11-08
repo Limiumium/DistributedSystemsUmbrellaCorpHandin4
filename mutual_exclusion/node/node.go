@@ -39,6 +39,7 @@ type Server struct {
 	id                uint64
 	outstandingGrants map[uint64]struct{}
 	grantWaitGroup    sync.WaitGroup
+	logger            *slog.Logger
 }
 
 // This is the function for Log, should be at start before main(), do not move
@@ -207,8 +208,8 @@ func main() {
 
 		grpcServer.GracefulStop()
 	}()
-  
-  initialize(server)
+
+	initialize(server)
 
 	if err := grpcServer.Serve(listener); err != nil {
 		server.logger.Error(
@@ -220,16 +221,13 @@ func main() {
 			"NODE_STOPPED",
 			"node_id", server.id,
 		)
-	}
 		disconnectMe(server)
 		grpcServer.Stop()
-	}()
+	}
+
 }
 
 func initialize(s *Server) {
-	s.requestStreams = make(map[uint64]pb.ChatService_ChatStreamServer)
-	s.grantStreams = make(map[uint64]pb.ChatService_ChatStreamServer)
-	s.queue = nil
 	s.state = "RELEASED"
 
 	s.logger.Info(
@@ -237,7 +235,7 @@ func initialize(s *Server) {
 		"node_id", s.id,
 		"state", s.state,
 	)
-	//fmt.Println("initialize...")
+	//fmt.Println("initializing...")
 	go goIdle(s)
 }
 
@@ -253,6 +251,7 @@ func enter(s *Server) {
 		"REQUESTING_CRITICAL_SECTION",
 		"node_id", s.id,
 		"state", s.state,
+		"timestamp", s.lamportTime,
 	)
 
 	msg := &pb.ChatMessage{
@@ -301,17 +300,21 @@ func receive(s *Server, msg *pb.ChatMessage) {
 		"REQUEST_RECEIVED",
 		"node_id", s.id,
 		"peer_id", msg.Id,
-		"timestamp", msg.Timestamp,
+		"timestamp", s.lamportTime,
 	)
-  
-  if s.state == "HELD" ||
+	s.timeMu.Lock()
+	s.lamportTime++
+	s.timeMu.Unlock()
+
+	if s.state == "HELD" ||
 		(s.state == "WANTED" && compare_priority(s, msg)) {
 		s.queue = append(s.queue, s.allStreams[msg.Id])
-    s.logger.Info(
-      "REPLY_DEFERRED",
-      "node_id", s.id,
-      "peer_id", msg.Id,
-      "state", s.state,
+		s.logger.Info(
+			"REPLY_DEFERRED",
+			"node_id", s.id,
+			"peer_id", msg.Id,
+			"state", s.state,
+			"timestamp", s.lamportTime,
 		)
 	} else {
 		s.timeMu.Lock()
@@ -351,6 +354,7 @@ func exit(s *Server) {
 		"EXIT_CRITICAL_SECTION",
 		"node_id", s.id,
 		"state", s.state,
+		"timestamp", s.lamportTime,
 	)
 
 	reply := &pb.ChatMessage{
@@ -375,6 +379,7 @@ func exit(s *Server) {
 		s.logger.Info(
 			"DEFERRED_REPLY_SENT",
 			"node_id", s.id,
+			"timestamp", s.lamportTime,
 		)
 
 		s.timeMu.Lock()
@@ -392,6 +397,7 @@ func access_cs(s *Server) {
 	s.logger.Info(
 		"ENTER_CRITICAL_SECTION!",
 		"node_id", s.id,
+		"timestamp", s.lamportTime,
 	)
 
 	//The process accesses the Critical Section (here it just prints to the terminal)
