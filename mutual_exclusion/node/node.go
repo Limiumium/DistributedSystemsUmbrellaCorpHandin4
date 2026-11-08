@@ -28,14 +28,15 @@ type ChatStreamAll interface {
 
 type Server struct {
 	pb.UnimplementedChatServiceServer
-	allStreams     map[uint64]ChatStreamAll
-	queue          []ChatStreamAll //Queue of channels
-	mu             sync.Mutex
-	timeMu         sync.Mutex
-	lamportTime    uint64
-	state          string
-	id             uint64
-	grantWaitGroup sync.WaitGroup
+	allStreams        map[uint64]ChatStreamAll
+	queue             []ChatStreamAll //Queue of channels
+	mu                sync.Mutex
+	timeMu            sync.Mutex
+	lamportTime       uint64
+	state             string
+	id                uint64
+	outstandingGrants map[uint64]struct{}
+	grantWaitGroup    sync.WaitGroup
 }
 
 func main() {
@@ -43,6 +44,7 @@ func main() {
 	server := &Server{}
 	server.allStreams = make(map[uint64]ChatStreamAll)
 
+	//find what port (and id) we can use
 	for i := range MAX_NB_NODES {
 		address := "localhost:505" + strconv.Itoa(i)
 		//fmt.Println("checking: " + address)
@@ -58,6 +60,7 @@ func main() {
 		}
 	}
 
+	//create clients foe existing servers and set the listener for our own server
 	var listener net.Listener
 	for i := range MAX_NB_NODES {
 		address := "localhost:505" + strconv.Itoa(i)
@@ -86,16 +89,18 @@ func main() {
 				for {
 					msg, err := chatStream.Recv()
 					if err != nil {
-						fmt.Println("Disconnected")
+						fmt.Println("Disconnected...")
 						return
 					}
 
-					fmt.Println("c: Received message from id '" + strconv.FormatUint(msg.Id, 10) + "' at logical time " + strconv.FormatUint(msg.Timestamp, 10) + " isRequest: " + strconv.FormatBool(msg.IsRequest))
+					fmt.Println("c: Received message from id '" + strconv.FormatUint(msg.Id, 10) + "' at logical time " + strconv.FormatUint(msg.Timestamp, 10) + " isRequest: " + strconv.FormatBool(msg.IsRequest) + " hasDisconnected: " + strconv.FormatBool(msg.HasDisconnected))
 
 					if msg.IsRequest {
 						receive(server, msg)
+					} else if msg.HasDisconnected {
+						handleDisconnection(server, msg.Id)
 					} else {
-						grantArrived(server)
+						grantArrived(server, msg.Id)
 					}
 				}
 			}()
@@ -129,7 +134,7 @@ func main() {
 
 	go func() {
 		<-closeChannel
-
+		disconnectMe(server)
 		grpcServer.Stop()
 	}()
 
@@ -141,7 +146,7 @@ func main() {
 
 func initialize(s *Server) {
 	s.state = "RELEASED"
-	fmt.Println("initialize...")
+	//fmt.Println("initialize...")
 	go goIdle(s)
 }
 
@@ -154,9 +159,10 @@ func enter(s *Server) {
 	s.state = "WANTED"
 
 	msg := &pb.ChatMessage{
-		Id:        s.id,
-		IsRequest: true,
-		Timestamp: s.lamportTime,
+		Id:              s.id,
+		IsRequest:       true,
+		HasDisconnected: false,
+		Timestamp:       s.lamportTime,
 	}
 
 	//Sends a request to all other processes
@@ -176,11 +182,20 @@ func enter(s *Server) {
 }
 
 func waitForGrants(s *Server) {
+	//make a map containing all ids of nodes we are waiting for grants from
+	// (used so we can skip grants from nodes that later disconnects before sending their grant)
+	s.outstandingGrants = make(map[uint64]struct{})
+	for id := range s.allStreams {
+		s.outstandingGrants[id] = struct{}{}
+	}
+
 	s.grantWaitGroup.Add(len(s.allStreams))
 	s.grantWaitGroup.Wait()
+	s.outstandingGrants = nil
 }
 
-func grantArrived(s *Server) {
+func grantArrived(s *Server, id uint64) {
+	delete(s.outstandingGrants, id)
 	s.grantWaitGroup.Done()
 }
 
@@ -193,9 +208,10 @@ func receive(s *Server, msg *pb.ChatMessage) {
 		s.lamportTime = max(s.lamportTime, msg.Timestamp) + 1
 		s.timeMu.Unlock()
 		reply := &pb.ChatMessage{
-			Id:        s.id,
-			IsRequest: false,
-			Timestamp: s.lamportTime,
+			Id:              s.id,
+			IsRequest:       false,
+			HasDisconnected: false,
+			Timestamp:       s.lamportTime,
 		}
 		s.allStreams[msg.Id].Send(reply)
 	}
@@ -205,9 +221,10 @@ func exit(s *Server) {
 
 	s.state = "RELEASED"
 	reply := &pb.ChatMessage{
-		Id:        s.id,
-		IsRequest: false,
-		Timestamp: s.lamportTime,
+		Id:              s.id,
+		IsRequest:       false,
+		HasDisconnected: false,
+		Timestamp:       s.lamportTime,
 	}
 	for _, clientStream := range s.queue {
 		clientStream.Send(reply)
@@ -247,6 +264,37 @@ func randomDelay(min float64, max float64) {
 	delay := min + rand.Float64()*span
 	time.Sleep(time.Duration(delay * float64(time.Second)))
 }
+func disconnectMe(s *Server) {
+	msg := &pb.ChatMessage{
+		Id:              s.id,
+		IsRequest:       false,
+		HasDisconnected: true,
+		Timestamp:       s.lamportTime,
+	}
+
+	//Sends a disconnect to all other processes
+	for _, clientStream := range s.allStreams {
+		clientStream.Send(msg)
+		s.timeMu.Lock()
+		s.lamportTime++
+		s.timeMu.Unlock()
+	}
+}
+
+func handleDisconnection(s *Server, id uint64) {
+	fmt.Println("User disconnected. id: " + strconv.FormatUint(id, 10))
+	delete(s.allStreams, id)
+
+	//in case we are waiting for a grant from the disconnected node, we delete
+	// it from the map and decrement the number of grants we are waiting for
+	if s.outstandingGrants != nil {
+		_, exists := s.outstandingGrants[id]
+		if exists {
+			delete(s.outstandingGrants, id)
+			s.grantWaitGroup.Done()
+		}
+	}
+}
 
 func (s *Server) ChatStream(chatStream pb.ChatService_ChatStreamServer) error {
 	//get id from metaData
@@ -258,48 +306,6 @@ func (s *Server) ChatStream(chatStream pb.ChatService_ChatStreamServer) error {
 	s.allStreams[id] = chatStream
 	s.mu.Unlock()
 
-	/*defer func() {
-		s.mu.Lock()
-		defer s.mu.Unlock()
-		for i, st := range s.chatStreams {
-			if st == chatStream {
-				s.chatStreams = append(s.chatStreams[:i], s.chatStreams[i+1:]...)
-				break
-			}
-		}
-		lamportTime++
-		logger.Info("Client disconnected", "component", "Client", "ClientID", userName, "LTime", lamportTime)
-
-		fmt.Println("Client '" + userName + "' disconnected")
-		//fmt.Println("nb users:" + strconv.Itoa(len(s.chatStreams)))
-		lamportTime++
-		msg := &pb.ChatMessage{
-			Username:  "Server",
-			Message:   "Participant '" + userName + "' left Chit Chat",
-			Timestamp: lamportTime,
-		}
-		logger.Info("Client disconnected message sent", "component", "Server", "ClientID", userName, "LTime", lamportTime)
-
-		for _, clientStream := range s.chatStreams {
-			clientStream.Send(msg)
-		}
-	}()*/
-
-	/*s.timeMu.Lock()
-	lamportTime++
-	logger.Info("Client connected", "component", "Client", "ClientID", userName, "LTime", lamportTime)
-	fmt.Println("Client '" + userName + "' connected")
-	//fmt.Println("nb users:" + strconv.Itoa(len(s.chatStreams)))
-	lamportTime++
-	msg := &pb.ChatMessage{
-		Username:  "Server",
-		Message:   "Participant '" + userName + "' joined Chit Chat",
-		Timestamp: lamportTime,
-	}
-	logger.Info("Client connected message sent", "component", "Server", "ClientID", userName, "LTime", lamportTime)
-	s.timeMu.Unlock()
-	sendMessageToAll(s, msg)*/
-
 	for {
 		msg, err := chatStream.Recv()
 		if err == io.EOF {
@@ -310,24 +316,14 @@ func (s *Server) ChatStream(chatStream pb.ChatService_ChatStreamServer) error {
 			return err
 		}
 
-		fmt.Println("s: Received message from id '" + strconv.FormatUint(msg.Id, 10) + "' at logical time " + strconv.FormatUint(msg.Timestamp, 10) + " isRequest: " + strconv.FormatBool(msg.IsRequest))
+		fmt.Println("s: Received message from id '" + strconv.FormatUint(msg.Id, 10) + "' at logical time " + strconv.FormatUint(msg.Timestamp, 10) + " isRequest: " + strconv.FormatBool(msg.IsRequest) + " hasDisconnected: " + strconv.FormatBool(msg.HasDisconnected))
 
 		if msg.IsRequest {
 			receive(s, msg)
+		} else if msg.HasDisconnected {
+			handleDisconnection(s, msg.Id)
 		} else {
-			grantArrived(s)
+			grantArrived(s, msg.Id)
 		}
-
-		/*s.timeMu.Lock()
-		lamportTime = max(lamportTime, msg.Timestamp) + 1
-		logger.Info("Client message received", "component", "Client", "ClientID", userName, "message", msg.Message, "LTime", lamportTime)
-
-		lamportTime++
-		msg.Timestamp = lamportTime
-		fmt.Println(msg.Username + ": " + msg.Message + " at logical time " + strconv.FormatUint(lamportTime, 10))
-		logger.Info("Client message sent", "component", "Server", "ClientID", userName, "LTime", lamportTime)
-		s.timeMu.Unlock()
-
-		sendMessageToAll(s, msg)*/
 	}
 }

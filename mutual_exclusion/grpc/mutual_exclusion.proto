@@ -7,7 +7,8 @@ message Nothing {}
 message ChatMessage {
     uint64 id = 1;
     bool isRequest = 2;
-    uint64 timestamp = 3;
+    bool hasDisconnected = 3;
+    uint64 timestamp = 4;
 }
 
 service ChatService {
