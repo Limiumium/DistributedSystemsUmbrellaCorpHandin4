@@ -103,7 +103,7 @@ func main() {
 		}
 	}
 
-	//create clients foe existing servers and set the listener for our own server
+	//create clients for existing servers and set the listener for our own server
 	var listener net.Listener
 	for i := range MAX_NB_NODES {
 		address := "localhost:505" + strconv.Itoa(i)
@@ -209,8 +209,6 @@ func main() {
 		grpcServer.GracefulStop()
 	}()
 
-	initialize(server)
-
 	if err := grpcServer.Serve(listener); err != nil {
 		server.logger.Error(
 			"GRPC_SERVER_ERROR",
@@ -241,6 +239,17 @@ func initialize(s *Server) {
 
 func goIdle(s *Server) {
 	randomDelay(1.0, 2.0)
+	s.logger.Info(
+		"IDLY_WAITING",
+		"node_id", s.id,
+		"state", s.state,
+		"timestamp", s.lamportTime,
+	)
+
+	s.timeMu.Lock()
+	s.lamportTime++
+	s.timeMu.Unlock()
+
 	go enter(s)
 }
 
@@ -254,6 +263,10 @@ func enter(s *Server) {
 		"timestamp", s.lamportTime,
 	)
 
+	s.timeMu.Lock()
+	s.lamportTime++
+	s.timeMu.Unlock()
+
 	msg := &pb.ChatMessage{
 		Id:              s.id,
 		IsRequest:       true,
@@ -264,10 +277,22 @@ func enter(s *Server) {
 	//Sends a request to all other processes
 	for _, clientStream := range s.allStreams {
 		clientStream.Send(msg)
+
 		s.timeMu.Lock()
 		s.lamportTime++
 		s.timeMu.Unlock()
 	}
+
+	s.logger.Info(
+		"SENT_REQUESTS_TO_ALL",
+		"node_id", s.id,
+		"state", s.state,
+		"timestamp", s.lamportTime,
+	)
+
+	s.timeMu.Lock()
+	s.lamportTime++
+	s.timeMu.Unlock()
 
 	//Waits for all processes to grant the request
 	waitForGrants(s)
@@ -301,6 +326,7 @@ func receive(s *Server, msg *pb.ChatMessage) {
 		"node_id", s.id,
 		"peer_id", msg.Id,
 		"timestamp", s.lamportTime,
+		"peer_timestamp", msg.Timestamp,
 	)
 	s.timeMu.Lock()
 	s.lamportTime++
@@ -344,6 +370,10 @@ func receive(s *Server, msg *pb.ChatMessage) {
 			"timestamp", reply.Timestamp,
 		)
 	}
+
+	s.timeMu.Lock()
+	s.lamportTime++
+	s.timeMu.Unlock()
 }
 
 func exit(s *Server) {
@@ -356,6 +386,10 @@ func exit(s *Server) {
 		"state", s.state,
 		"timestamp", s.lamportTime,
 	)
+
+	s.timeMu.Lock()
+	s.lamportTime++
+	s.timeMu.Unlock()
 
 	reply := &pb.ChatMessage{
 		Id:              s.id,
