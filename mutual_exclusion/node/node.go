@@ -30,7 +30,11 @@ type ChatStreamAll interface {
 
 type Server struct {
 	pb.UnimplementedChatServiceServer
-	allStreams        map[uint64]ChatStreamAll
+
+	allStreams     map[uint64]ChatStreamAll
+	requestStreams map[uint64]pb.ChatService_ChatStreamServer
+	grantStreams   map[uint64]pb.ChatService_ChatStreamServer
+
 	queue             []ChatStreamAll //Queue of channels
 	mu                sync.Mutex
 	timeMu            sync.Mutex
@@ -192,6 +196,7 @@ func main() {
 
 	//app termination listener
 	closeChannel := make(chan os.Signal, 1)
+
 	signal.Notify(
 		closeChannel,
 		os.Interrupt,    // Ctrl+C
@@ -223,9 +228,20 @@ func main() {
 		grpcServer.Stop()
 	}
 
+		server.logger.Info(
+			"NODE_STOPPED",
+			"node_id", server.id,
+		)
+	}
 }
 
+/*disconnectMe(server)
+grpcServer.Stop()*/
+
 func initialize(s *Server) {
+	s.requestStreams = make(map[uint64]pb.ChatService_ChatStreamServer)
+	s.grantStreams = make(map[uint64]pb.ChatService_ChatStreamServer)
+	s.queue = nil
 	s.state = "RELEASED"
 
 	s.logger.Info(

@@ -1,0 +1,1747 @@
+time=2026-11-08T23:30:32.666+01:00 level=INFO msg=NODE_IS_INITIALIZED node_id=2 state=RELEASED
+time=2026-11-08T23:30:32.682+01:00 level=INFO msg="Node started" node_id=2 address=127.0.0.1:5052
+time=2026-11-08T23:30:32.682+01:00 level=INFO msg=NODE_IS_INITIALIZED node_id=2 state=RELEASED
+time=2026-11-08T23:30:32.825+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=101
+time=2026-11-08T23:30:32.825+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=102
+time=2026-11-08T23:30:33.177+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=102
+time=2026-11-08T23:30:33.177+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=103
+time=2026-11-08T23:30:33.691+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=105
+time=2026-11-08T23:30:33.694+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=106
+time=2026-11-08T23:30:33.945+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:34.021+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:30:34.321+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:34.369+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:30:34.669+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=110
+time=2026-11-08T23:30:34.669+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:30:35.068+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=111
+time=2026-11-08T23:30:35.068+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:30:35.201+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=113
+time=2026-11-08T23:30:35.201+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:30:35.234+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:30:35.234+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:30:35.234+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:30:35.234+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:30:35.253+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:30:36.003+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=115
+time=2026-11-08T23:30:36.003+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=116
+time=2026-11-08T23:30:36.262+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:36.443+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:36.929+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=119
+time=2026-11-08T23:30:36.929+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=121
+time=2026-11-08T23:30:37.717+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=121
+time=2026-11-08T23:30:37.717+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=122
+time=2026-11-08T23:30:38.039+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=123
+time=2026-11-08T23:30:38.039+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=WANTED
+time=2026-11-08T23:30:39.154+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:30:39.154+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:30:40.696+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=125
+time=2026-11-08T23:30:40.696+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:30:40.766+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:30:40.766+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:30:40.766+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:30:40.806+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:30:41.747+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=128
+time=2026-11-08T23:30:41.747+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=129
+time=2026-11-08T23:30:42.103+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:42.175+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:30:42.214+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:42.215+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:30:42.383+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=133
+time=2026-11-08T23:30:42.383+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:30:43.716+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:30:43.716+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:30:43.783+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=134
+time=2026-11-08T23:30:43.783+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=137
+time=2026-11-08T23:30:43.955+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:30:44.922+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=136
+time=2026-11-08T23:30:44.922+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=138
+time=2026-11-08T23:30:45.166+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:45.401+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:45.427+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=137
+time=2026-11-08T23:30:45.427+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=143
+time=2026-11-08T23:30:47.015+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:30:47.015+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:30:47.192+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=143
+time=2026-11-08T23:30:47.192+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:30:47.276+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:30:47.276+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:30:48.329+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=144
+time=2026-11-08T23:30:48.329+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=147
+time=2026-11-08T23:30:48.871+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=147
+time=2026-11-08T23:30:48.871+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=148
+time=2026-11-08T23:30:48.879+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=147
+time=2026-11-08T23:30:48.879+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=149
+time=2026-11-08T23:30:49.135+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:49.473+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:30:50.499+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:30:50.597+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:51.187+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:30:51.241+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:30:51.554+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=153
+time=2026-11-08T23:30:51.554+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=156
+time=2026-11-08T23:30:51.777+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=154
+time=2026-11-08T23:30:51.777+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=157
+time=2026-11-08T23:30:52.756+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=156
+time=2026-11-08T23:30:52.756+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=158
+time=2026-11-08T23:30:52.816+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:52.841+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=156
+time=2026-11-08T23:30:52.841+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=161
+time=2026-11-08T23:30:54.157+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:30:55.394+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:55.486+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:30:55.486+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:30:55.702+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=163
+time=2026-11-08T23:30:55.702+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:30:56.569+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=164
+time=2026-11-08T23:30:56.569+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:30:57.177+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=166
+time=2026-11-08T23:30:57.177+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:30:57.471+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:30:57.471+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:30:57.471+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:30:57.471+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:30:57.666+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:30:59.024+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:59.402+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:30:59.449+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:30:59.449+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:00.106+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=171
+time=2026-11-08T23:31:00.106+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:00.310+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=173
+time=2026-11-08T23:31:00.310+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:00.561+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=174
+time=2026-11-08T23:31:00.561+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:31:00.866+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:00.866+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:00.866+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:00.866+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:00.931+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=177
+time=2026-11-08T23:31:00.931+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=178
+time=2026-11-08T23:31:01.131+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:02.104+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:02.470+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:02.528+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=180
+time=2026-11-08T23:31:02.528+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:03.043+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:03.044+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:03.550+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:03.550+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:04.008+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=183
+time=2026-11-08T23:31:04.008+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=186
+time=2026-11-08T23:31:04.293+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=184
+time=2026-11-08T23:31:04.293+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=187
+time=2026-11-08T23:31:04.551+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=187
+time=2026-11-08T23:31:04.551+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=188
+time=2026-11-08T23:31:04.556+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:04.671+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:05.266+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:06.046+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:06.046+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:06.049+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=192
+time=2026-11-08T23:31:06.050+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:06.189+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:06.189+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:06.512+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=193
+time=2026-11-08T23:31:06.512+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=196
+time=2026-11-08T23:31:07.365+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:07.548+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=196
+time=2026-11-08T23:31:07.548+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=197
+time=2026-11-08T23:31:07.682+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=197
+time=2026-11-08T23:31:07.682+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=198
+time=2026-11-08T23:31:07.991+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:08.030+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:08.273+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=201
+time=2026-11-08T23:31:08.273+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:09.096+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=202
+time=2026-11-08T23:31:09.096+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:31:09.162+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:09.163+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:10.334+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=205
+time=2026-11-08T23:31:10.334+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:31:11.003+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:11.003+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:11.003+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:11.003+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:11.506+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:12.031+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:12.031+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:12.181+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=208
+time=2026-11-08T23:31:12.181+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:12.919+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=210
+time=2026-11-08T23:31:12.919+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:13.031+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:13.032+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:13.046+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=213
+time=2026-11-08T23:31:13.046+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:31:13.844+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:13.844+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:13.844+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:13.844+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:14.714+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:15.279+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=216
+time=2026-11-08T23:31:15.279+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=217
+time=2026-11-08T23:31:15.500+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=217
+time=2026-11-08T23:31:15.501+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=218
+time=2026-11-08T23:31:15.813+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:16.055+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:16.721+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=220
+time=2026-11-08T23:31:16.721+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=223
+time=2026-11-08T23:31:17.114+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:17.114+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:17.444+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=223
+time=2026-11-08T23:31:17.444+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:31:18.195+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=226
+time=2026-11-08T23:31:18.195+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:18.817+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:18.817+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:18.817+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:19.015+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=228
+time=2026-11-08T23:31:19.015+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=229
+time=2026-11-08T23:31:19.545+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:19.711+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=229
+time=2026-11-08T23:31:19.711+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=230
+time=2026-11-08T23:31:19.866+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:20.199+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:21.263+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:21.477+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=235
+time=2026-11-08T23:31:21.477+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=236
+time=2026-11-08T23:31:21.551+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=233
+time=2026-11-08T23:31:21.551+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=237
+time=2026-11-08T23:31:21.867+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:22.476+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:23.103+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=239
+time=2026-11-08T23:31:23.103+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=240
+time=2026-11-08T23:31:23.653+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=240
+time=2026-11-08T23:31:23.653+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=241
+time=2026-11-08T23:31:23.861+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:23.948+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:24.098+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=242
+time=2026-11-08T23:31:24.098+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=244
+time=2026-11-08T23:31:25.046+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=244
+time=2026-11-08T23:31:25.046+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=245
+time=2026-11-08T23:31:25.423+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:25.909+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:26.817+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=249
+time=2026-11-08T23:31:26.817+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=WANTED
+time=2026-11-08T23:31:27.116+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:27.738+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=251
+time=2026-11-08T23:31:27.738+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:27.793+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:27.793+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:27.793+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:28.494+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:28.497+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=252
+time=2026-11-08T23:31:28.497+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=253
+time=2026-11-08T23:31:29.302+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=255
+time=2026-11-08T23:31:29.302+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=256
+time=2026-11-08T23:31:29.446+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:30.231+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=258
+time=2026-11-08T23:31:30.231+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=259
+time=2026-11-08T23:31:30.247+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:31.058+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=258
+time=2026-11-08T23:31:31.058+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=262
+time=2026-11-08T23:31:31.523+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:31.523+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:31.637+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=263
+time=2026-11-08T23:31:31.637+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:31.660+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:31.660+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:32.360+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:33.005+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=266
+time=2026-11-08T23:31:33.005+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=267
+time=2026-11-08T23:31:33.467+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=267
+time=2026-11-08T23:31:33.467+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=268
+time=2026-11-08T23:31:33.563+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:33.630+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:33.817+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=269
+time=2026-11-08T23:31:33.817+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=273
+time=2026-11-08T23:31:33.839+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=271
+time=2026-11-08T23:31:33.839+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=274
+time=2026-11-08T23:31:35.860+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=276
+time=2026-11-08T23:31:35.860+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=WANTED
+time=2026-11-08T23:31:37.101+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=278
+time=2026-11-08T23:31:37.101+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=WANTED
+time=2026-11-08T23:31:37.107+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:37.107+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:38.220+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:38.220+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:38.220+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:38.532+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=278
+time=2026-11-08T23:31:38.532+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=279
+time=2026-11-08T23:31:39.238+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:39.250+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=280
+time=2026-11-08T23:31:39.250+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=281
+time=2026-11-08T23:31:39.863+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:40.846+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:41.077+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=286
+time=2026-11-08T23:31:41.077+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=WANTED
+time=2026-11-08T23:31:41.103+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:41.103+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:41.470+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:41.470+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:41.939+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=289
+time=2026-11-08T23:31:41.939+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=290
+time=2026-11-08T23:31:42.881+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:42.974+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=290
+time=2026-11-08T23:31:42.974+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=291
+time=2026-11-08T23:31:43.212+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:43.320+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=294
+time=2026-11-08T23:31:43.320+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=WANTED
+time=2026-11-08T23:31:43.422+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:44.065+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=295
+time=2026-11-08T23:31:44.065+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:31:44.344+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:44.345+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:44.542+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=298
+time=2026-11-08T23:31:44.542+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:31:45.287+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=299
+time=2026-11-08T23:31:45.287+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:45.579+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:45.579+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:45.579+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:45.579+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:45.579+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:45.656+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:46.915+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:47.040+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:47.886+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:47.886+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:48.598+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=305
+time=2026-11-08T23:31:48.598+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:49.030+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=307
+time=2026-11-08T23:31:49.030+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:49.260+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:49.260+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:49.260+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:49.418+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=308
+time=2026-11-08T23:31:49.418+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=310
+time=2026-11-08T23:31:49.704+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=310
+time=2026-11-08T23:31:49.704+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=311
+time=2026-11-08T23:31:50.728+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:51.034+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=314
+time=2026-11-08T23:31:51.034+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=315
+time=2026-11-08T23:31:51.107+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:51.837+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=316
+time=2026-11-08T23:31:51.837+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=318
+time=2026-11-08T23:31:51.956+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=317
+time=2026-11-08T23:31:51.956+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=319
+time=2026-11-08T23:31:52.435+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:53.598+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:53.598+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:53.607+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=321
+time=2026-11-08T23:31:53.607+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:55.233+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:55.234+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:31:55.417+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:31:55.437+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=324
+time=2026-11-08T23:31:55.437+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=325
+time=2026-11-08T23:31:55.444+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=326
+time=2026-11-08T23:31:55.444+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=327
+time=2026-11-08T23:31:56.158+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=324
+time=2026-11-08T23:31:56.158+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=328
+time=2026-11-08T23:31:56.510+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:57.115+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:31:58.592+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:58.592+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:31:59.013+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=331
+time=2026-11-08T23:31:59.013+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:31:59.972+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=334
+time=2026-11-08T23:31:59.972+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:32:00.667+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=333
+time=2026-11-08T23:32:00.667+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:32:00.723+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=337
+time=2026-11-08T23:32:00.723+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:32:00.821+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:00.821+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:00.821+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:00.821+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:00.821+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:01.538+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:01.915+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:03.020+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:03.161+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:03.180+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:04.256+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=342
+time=2026-11-08T23:32:04.256+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=344
+time=2026-11-08T23:32:04.384+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:05.094+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=345
+time=2026-11-08T23:32:05.094+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=347
+time=2026-11-08T23:32:06.651+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=346
+time=2026-11-08T23:32:06.651+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=348
+time=2026-11-08T23:32:06.781+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:06.781+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:07.343+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:07.758+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=349
+time=2026-11-08T23:32:07.758+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=351
+time=2026-11-08T23:32:08.094+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=351
+time=2026-11-08T23:32:08.094+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=352
+time=2026-11-08T23:32:08.831+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=352
+time=2026-11-08T23:32:08.832+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=353
+time=2026-11-08T23:32:08.973+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:09.026+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=355
+time=2026-11-08T23:32:09.026+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=356
+time=2026-11-08T23:32:09.216+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:09.479+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:09.631+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:10.491+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=358
+time=2026-11-08T23:32:10.491+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=359
+time=2026-11-08T23:32:10.848+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:10.903+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:11.099+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:11.099+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:11.196+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=362
+time=2026-11-08T23:32:11.196+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:32:11.819+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=364
+time=2026-11-08T23:32:11.819+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:32:12.114+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=365
+time=2026-11-08T23:32:12.114+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:32:12.651+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=367
+time=2026-11-08T23:32:12.651+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:32:13.255+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:13.255+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:13.255+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:13.255+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:13.255+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:13.496+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:14.913+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:14.914+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:15.103+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:15.104+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:15.543+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:15.577+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=373
+time=2026-11-08T23:32:15.577+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=376
+time=2026-11-08T23:32:15.726+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=374
+time=2026-11-08T23:32:15.726+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=377
+time=2026-11-08T23:32:15.895+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=377
+time=2026-11-08T23:32:15.895+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=378
+time=2026-11-08T23:32:16.392+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=377
+time=2026-11-08T23:32:16.392+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=379
+time=2026-11-08T23:32:16.782+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:17.264+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:17.781+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=382
+time=2026-11-08T23:32:17.781+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:32:17.835+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:17.835+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:17.857+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:19.052+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:19.052+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:19.126+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=384
+time=2026-11-08T23:32:19.126+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:32:19.262+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:19.262+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:19.531+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=387
+time=2026-11-08T23:32:19.531+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=388
+time=2026-11-08T23:32:19.770+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:19.922+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:20.014+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=391
+time=2026-11-08T23:32:20.014+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:32:20.255+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=392
+time=2026-11-08T23:32:20.255+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:32:20.476+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:20.477+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:21.277+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=395
+time=2026-11-08T23:32:21.277+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:32:21.367+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:21.367+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:21.367+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:21.367+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:22.452+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:22.587+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:22.587+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:22.764+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:23.400+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=400
+time=2026-11-08T23:32:23.400+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=401
+time=2026-11-08T23:32:23.818+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=401
+time=2026-11-08T23:32:23.818+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=402
+time=2026-11-08T23:32:24.308+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:24.445+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:24.915+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:24.915+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:25.253+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=406
+time=2026-11-08T23:32:25.253+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:32:25.712+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=407
+time=2026-11-08T23:32:25.712+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:32:26.662+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=409
+time=2026-11-08T23:32:26.662+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:32:27.149+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:27.149+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:27.149+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:27.149+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:27.842+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:27.860+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=411
+time=2026-11-08T23:32:27.860+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=412
+time=2026-11-08T23:32:28.348+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:28.349+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:29.082+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:29.082+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:29.112+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=416
+time=2026-11-08T23:32:29.112+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:32:29.266+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:29.266+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:29.423+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:29.711+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=417
+time=2026-11-08T23:32:29.711+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=420
+time=2026-11-08T23:32:29.927+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=420
+time=2026-11-08T23:32:29.927+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=421
+time=2026-11-08T23:32:30.462+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:30.572+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:30.854+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=422
+time=2026-11-08T23:32:30.854+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:32:31.227+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:31.321+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=424
+time=2026-11-08T23:32:31.321+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=427
+time=2026-11-08T23:32:32.478+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=427
+time=2026-11-08T23:32:32.478+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=428
+time=2026-11-08T23:32:32.502+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=429
+time=2026-11-08T23:32:32.502+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=WANTED
+time=2026-11-08T23:32:32.793+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:32.793+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:32.793+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:33.929+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:34.045+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:34.180+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:35.015+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:35.084+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=432
+time=2026-11-08T23:32:35.084+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=435
+time=2026-11-08T23:32:35.389+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=435
+time=2026-11-08T23:32:35.389+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=436
+time=2026-11-08T23:32:35.979+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=436
+time=2026-11-08T23:32:35.979+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=437
+time=2026-11-08T23:32:36.297+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:36.401+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:36.669+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:36.691+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=440
+time=2026-11-08T23:32:36.691+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=441
+time=2026-11-08T23:32:37.576+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:38.254+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=441
+time=2026-11-08T23:32:38.254+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=442
+time=2026-11-08T23:32:38.454+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:38.482+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=444
+time=2026-11-08T23:32:38.482+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=445
+time=2026-11-08T23:32:38.998+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:39.273+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:40.007+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=447
+time=2026-11-08T23:32:40.007+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=449
+time=2026-11-08T23:32:40.520+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=449
+time=2026-11-08T23:32:40.520+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=450
+time=2026-11-08T23:32:40.713+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:41.314+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:42.287+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=451
+time=2026-11-08T23:32:42.287+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=452
+time=2026-11-08T23:32:42.296+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:42.358+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=454
+time=2026-11-08T23:32:42.358+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=455
+time=2026-11-08T23:32:42.677+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:43.596+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=454
+time=2026-11-08T23:32:43.596+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=458
+time=2026-11-08T23:32:43.701+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=458
+time=2026-11-08T23:32:43.701+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=459
+time=2026-11-08T23:32:44.022+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:44.041+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:44.041+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:44.949+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:45.460+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=461
+time=2026-11-08T23:32:45.460+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=464
+time=2026-11-08T23:32:45.738+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=464
+time=2026-11-08T23:32:45.738+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=465
+time=2026-11-08T23:32:46.539+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:46.539+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:46.730+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:46.775+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=466
+time=2026-11-08T23:32:46.776+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=469
+time=2026-11-08T23:32:47.529+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=469
+time=2026-11-08T23:32:47.529+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=470
+time=2026-11-08T23:32:47.575+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=469
+time=2026-11-08T23:32:47.576+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=471
+time=2026-11-08T23:32:47.738+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:48.078+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:49.405+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:49.596+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=474
+time=2026-11-08T23:32:49.596+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=475
+time=2026-11-08T23:32:49.770+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=477
+time=2026-11-08T23:32:49.770+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=478
+time=2026-11-08T23:32:49.808+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=478
+time=2026-11-08T23:32:49.808+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=479
+time=2026-11-08T23:32:50.498+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:51.067+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=481
+time=2026-11-08T23:32:51.067+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=482
+time=2026-11-08T23:32:51.403+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:52.142+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:52.429+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=485
+time=2026-11-08T23:32:52.429+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=487
+time=2026-11-08T23:32:52.465+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:52.465+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:53.278+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=488
+time=2026-11-08T23:32:53.278+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:32:53.860+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=489
+time=2026-11-08T23:32:53.860+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:32:53.896+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:53.896+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:53.896+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:32:54.904+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:55.481+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=492
+time=2026-11-08T23:32:55.481+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=493
+time=2026-11-08T23:32:55.781+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:56.457+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=494
+time=2026-11-08T23:32:56.457+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=496
+time=2026-11-08T23:32:56.561+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=496
+time=2026-11-08T23:32:56.561+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=497
+time=2026-11-08T23:32:56.874+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:32:56.951+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=495
+time=2026-11-08T23:32:56.951+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=500
+time=2026-11-08T23:32:57.608+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:57.608+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:32:58.907+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:32:59.142+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=502
+time=2026-11-08T23:32:59.142+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=503
+time=2026-11-08T23:32:59.265+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=503
+time=2026-11-08T23:32:59.265+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=504
+time=2026-11-08T23:33:00.149+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:00.887+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:00.940+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=506
+time=2026-11-08T23:33:00.940+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=507
+time=2026-11-08T23:33:01.268+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:01.927+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:01.928+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:01.960+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=509
+time=2026-11-08T23:33:01.960+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:33:02.488+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:02.488+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:02.585+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:03.190+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=512
+time=2026-11-08T23:33:03.190+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=513
+time=2026-11-08T23:33:03.256+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=514
+time=2026-11-08T23:33:03.256+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=515
+time=2026-11-08T23:33:03.331+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=512
+time=2026-11-08T23:33:03.331+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=516
+time=2026-11-08T23:33:04.102+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:04.506+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:05.676+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=519
+time=2026-11-08T23:33:05.676+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=521
+time=2026-11-08T23:33:06.067+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:06.067+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:06.868+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=522
+time=2026-11-08T23:33:06.868+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:33:07.287+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=523
+time=2026-11-08T23:33:07.287+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:07.493+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:07.493+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:07.493+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:08.071+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=526
+time=2026-11-08T23:33:08.071+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=527
+time=2026-11-08T23:33:08.269+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:08.680+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=526
+time=2026-11-08T23:33:08.680+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=528
+time=2026-11-08T23:33:08.736+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:09.103+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:09.317+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:09.444+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:09.549+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=531
+time=2026-11-08T23:33:09.549+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=534
+time=2026-11-08T23:33:10.120+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:10.398+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=533
+time=2026-11-08T23:33:10.398+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:33:10.499+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:11.453+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=535
+time=2026-11-08T23:33:11.453+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=538
+time=2026-11-08T23:33:11.509+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=538
+time=2026-11-08T23:33:11.510+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=539
+time=2026-11-08T23:33:11.694+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=540
+time=2026-11-08T23:33:11.694+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=WANTED
+time=2026-11-08T23:33:12.338+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:12.338+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:12.338+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:13.875+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:14.210+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:14.210+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:14.389+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:15.220+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:15.351+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=543
+time=2026-11-08T23:33:15.351+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=546
+time=2026-11-08T23:33:15.880+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=546
+time=2026-11-08T23:33:15.880+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=547
+time=2026-11-08T23:33:16.108+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=548
+time=2026-11-08T23:33:16.108+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=549
+time=2026-11-08T23:33:16.257+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=546
+time=2026-11-08T23:33:16.257+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=550
+time=2026-11-08T23:33:16.365+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:16.659+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:18.409+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:18.409+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:18.580+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:19.560+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=553
+time=2026-11-08T23:33:19.560+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=557
+time=2026-11-08T23:33:19.722+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:20.072+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:20.354+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=558
+time=2026-11-08T23:33:20.355+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=560
+time=2026-11-08T23:33:20.402+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=556
+time=2026-11-08T23:33:20.402+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=561
+time=2026-11-08T23:33:20.882+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:21.045+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=562
+time=2026-11-08T23:33:21.045+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:21.398+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:21.399+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:21.580+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:21.580+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:22.175+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=564
+time=2026-11-08T23:33:22.175+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=567
+time=2026-11-08T23:33:22.623+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:23.606+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:23.830+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:23.833+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=569
+time=2026-11-08T23:33:23.833+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=571
+time=2026-11-08T23:33:24.863+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:24.863+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:25.011+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=572
+time=2026-11-08T23:33:25.011+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:25.314+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=574
+time=2026-11-08T23:33:25.314+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:33:25.538+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=574
+time=2026-11-08T23:33:25.538+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:26.139+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:26.139+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:26.139+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:26.139+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:26.235+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:26.395+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=577
+time=2026-11-08T23:33:26.395+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=578
+time=2026-11-08T23:33:27.307+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:27.554+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:28.675+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:28.675+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:28.683+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=582
+time=2026-11-08T23:33:28.683+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:28.960+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:28.960+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:30.060+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=584
+time=2026-11-08T23:33:30.060+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=586
+time=2026-11-08T23:33:30.233+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=586
+time=2026-11-08T23:33:30.233+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=587
+time=2026-11-08T23:33:30.478+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=587
+time=2026-11-08T23:33:30.478+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=588
+time=2026-11-08T23:33:30.912+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:30.919+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:31.072+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:31.207+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:32.386+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:32.387+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:32.410+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=592
+time=2026-11-08T23:33:32.410+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:32.626+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:32.837+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=595
+time=2026-11-08T23:33:32.837+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=597
+time=2026-11-08T23:33:32.840+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=597
+time=2026-11-08T23:33:32.840+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=598
+time=2026-11-08T23:33:33.675+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=594
+time=2026-11-08T23:33:33.675+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=599
+time=2026-11-08T23:33:33.693+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:33.693+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:33.847+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:35.108+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:35.421+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:35.703+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:35.703+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=602
+time=2026-11-08T23:33:35.703+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:36.950+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:36.950+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:37.098+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=605
+time=2026-11-08T23:33:37.098+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:37.191+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:37.191+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:37.191+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:37.335+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:37.617+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=606
+time=2026-11-08T23:33:37.617+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=610
+time=2026-11-08T23:33:37.969+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=608
+time=2026-11-08T23:33:37.969+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=611
+time=2026-11-08T23:33:38.407+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:39.008+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:39.351+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:39.351+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:39.803+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=614
+time=2026-11-08T23:33:39.803+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:40.712+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=616
+time=2026-11-08T23:33:40.713+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:40.822+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=617
+time=2026-11-08T23:33:40.823+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:33:41.265+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:41.265+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:41.265+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:41.265+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:41.304+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=620
+time=2026-11-08T23:33:41.304+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=621
+time=2026-11-08T23:33:41.785+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:42.811+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:42.995+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:43.118+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:43.118+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:43.351+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:43.494+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=624
+time=2026-11-08T23:33:43.495+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=628
+time=2026-11-08T23:33:43.916+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=627
+time=2026-11-08T23:33:43.916+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=629
+time=2026-11-08T23:33:44.570+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=628
+time=2026-11-08T23:33:44.570+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=630
+time=2026-11-08T23:33:44.804+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:44.825+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=631
+time=2026-11-08T23:33:44.825+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=633
+time=2026-11-08T23:33:44.924+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:44.976+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:45.374+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:45.868+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=633
+time=2026-11-08T23:33:45.868+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=635
+time=2026-11-08T23:33:45.979+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=636
+time=2026-11-08T23:33:45.979+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=637
+time=2026-11-08T23:33:46.550+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:46.550+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:46.672+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=638
+time=2026-11-08T23:33:46.672+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:33:46.914+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:47.293+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=642
+time=2026-11-08T23:33:47.293+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=643
+time=2026-11-08T23:33:47.417+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:47.962+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=645
+time=2026-11-08T23:33:47.962+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:48.108+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:48.108+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:48.108+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:48.567+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:49.162+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=647
+time=2026-11-08T23:33:49.162+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=648
+time=2026-11-08T23:33:49.366+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:49.834+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:50.079+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:50.079+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:50.334+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=652
+time=2026-11-08T23:33:50.334+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:33:50.577+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=653
+time=2026-11-08T23:33:50.577+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:51.207+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=655
+time=2026-11-08T23:33:51.207+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:51.906+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:51.906+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:51.906+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:51.906+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:51.982+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:51.984+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=657
+time=2026-11-08T23:33:51.984+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=658
+time=2026-11-08T23:33:53.148+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:53.425+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:53.795+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=662
+time=2026-11-08T23:33:53.795+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=663
+time=2026-11-08T23:33:54.123+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=664
+time=2026-11-08T23:33:54.123+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=WANTED
+time=2026-11-08T23:33:54.308+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:54.308+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:55.315+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:55.315+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:33:55.720+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=664
+time=2026-11-08T23:33:55.720+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=667
+time=2026-11-08T23:33:56.394+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=666
+time=2026-11-08T23:33:56.394+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=668
+time=2026-11-08T23:33:56.453+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:33:56.512+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:57.598+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:58.420+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:33:58.421+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:33:58.747+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=672
+time=2026-11-08T23:33:58.747+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:33:59.185+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=673
+time=2026-11-08T23:33:59.186+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:33:59.779+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=675
+time=2026-11-08T23:33:59.779+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:34:00.006+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:00.006+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:00.006+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:00.006+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:00.938+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:01.511+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=677
+time=2026-11-08T23:34:01.511+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=678
+time=2026-11-08T23:34:01.929+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:02.098+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=681
+time=2026-11-08T23:34:02.098+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=WANTED
+time=2026-11-08T23:34:02.248+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:02.454+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:02.454+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:03.177+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=684
+time=2026-11-08T23:34:03.177+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:34:03.734+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:03.734+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:03.734+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:04.144+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=685
+time=2026-11-08T23:34:04.144+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=687
+time=2026-11-08T23:34:04.285+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:05.173+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:05.174+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:05.456+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:05.457+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:05.475+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=691
+time=2026-11-08T23:34:05.475+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:34:05.588+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:05.588+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:05.649+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=694
+time=2026-11-08T23:34:05.649+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=695
+time=2026-11-08T23:34:05.777+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=695
+time=2026-11-08T23:34:05.777+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=696
+time=2026-11-08T23:34:06.595+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:06.596+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:06.788+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:07.216+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=699
+time=2026-11-08T23:34:07.216+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=700
+time=2026-11-08T23:34:07.518+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=700
+time=2026-11-08T23:34:07.518+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=701
+time=2026-11-08T23:34:07.865+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:07.944+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:08.255+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=702
+time=2026-11-08T23:34:08.255+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=704
+time=2026-11-08T23:34:08.366+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:08.538+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=705
+time=2026-11-08T23:34:08.538+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:34:09.131+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:09.132+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:09.271+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:09.271+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:10.259+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=709
+time=2026-11-08T23:34:10.259+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=710
+time=2026-11-08T23:34:10.605+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=712
+time=2026-11-08T23:34:10.605+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=713
+time=2026-11-08T23:34:11.128+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:11.159+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:11.185+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=714
+time=2026-11-08T23:34:11.185+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=716
+time=2026-11-08T23:34:11.513+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:11.955+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:12.386+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=717
+time=2026-11-08T23:34:12.386+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=718
+time=2026-11-08T23:34:12.560+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=718
+time=2026-11-08T23:34:12.560+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=719
+time=2026-11-08T23:34:12.585+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:12.703+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:12.879+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:13.164+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=722
+time=2026-11-08T23:34:13.164+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=723
+time=2026-11-08T23:34:13.899+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:14.244+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=724
+time=2026-11-08T23:34:14.244+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=726
+time=2026-11-08T23:34:14.478+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:15.062+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:15.062+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:16.581+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=728
+time=2026-11-08T23:34:16.581+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:34:16.770+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=729
+time=2026-11-08T23:34:16.770+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:34:17.016+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:17.016+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:17.016+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:17.193+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:17.576+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=732
+time=2026-11-08T23:34:17.576+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=733
+time=2026-11-08T23:34:17.680+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=732
+time=2026-11-08T23:34:17.680+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=734
+time=2026-11-08T23:34:18.389+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:18.769+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:19.420+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:19.421+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:20.148+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=738
+time=2026-11-08T23:34:20.148+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:34:20.302+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:20.302+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:20.367+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:20.922+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=739
+time=2026-11-08T23:34:20.922+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=742
+time=2026-11-08T23:34:21.328+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=741
+time=2026-11-08T23:34:21.328+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=743
+time=2026-11-08T23:34:21.348+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=741
+time=2026-11-08T23:34:21.348+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=744
+time=2026-11-08T23:34:21.395+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:21.674+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:22.884+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:22.884+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:23.554+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:23.795+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=748
+time=2026-11-08T23:34:23.795+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=751
+time=2026-11-08T23:34:23.853+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:24.221+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=749
+time=2026-11-08T23:34:24.221+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=752
+time=2026-11-08T23:34:24.943+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:25.262+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=751
+time=2026-11-08T23:34:25.263+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=755
+time=2026-11-08T23:34:25.318+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=751
+time=2026-11-08T23:34:25.318+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=756
+time=2026-11-08T23:34:25.803+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:26.724+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=757
+time=2026-11-08T23:34:26.724+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=759
+time=2026-11-08T23:34:27.179+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:27.179+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:28.211+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:28.293+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:28.592+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=759
+time=2026-11-08T23:34:28.592+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=762
+time=2026-11-08T23:34:29.197+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=762
+time=2026-11-08T23:34:29.197+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=763
+time=2026-11-08T23:34:30.021+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:30.174+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:30.563+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:30.563+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:30.683+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=766
+time=2026-11-08T23:34:30.683+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:34:31.473+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:31.473+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:31.648+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:31.929+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=769
+time=2026-11-08T23:34:31.929+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=771
+time=2026-11-08T23:34:31.944+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=770
+time=2026-11-08T23:34:31.944+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=772
+time=2026-11-08T23:34:32.366+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=772
+time=2026-11-08T23:34:32.366+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=773
+time=2026-11-08T23:34:33.007+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:33.010+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:34.513+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=776
+time=2026-11-08T23:34:34.513+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=778
+time=2026-11-08T23:34:35.837+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:35.837+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:36.353+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=779
+time=2026-11-08T23:34:36.353+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:34:36.876+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:36.876+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:37.429+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=780
+time=2026-11-08T23:34:37.429+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=782
+time=2026-11-08T23:34:37.437+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=782
+time=2026-11-08T23:34:37.437+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=783
+time=2026-11-08T23:34:37.711+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:38.323+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:38.555+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=785
+time=2026-11-08T23:34:38.555+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=786
+time=2026-11-08T23:34:38.959+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:39.255+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:39.255+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:40.061+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=789
+time=2026-11-08T23:34:40.061+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:34:40.543+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=790
+time=2026-11-08T23:34:40.543+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:34:41.066+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=792
+time=2026-11-08T23:34:41.066+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:34:41.837+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:41.837+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:41.837+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:41.837+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:41.949+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:43.381+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=794
+time=2026-11-08T23:34:43.381+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=795
+time=2026-11-08T23:34:43.542+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:43.753+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:44.369+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=799
+time=2026-11-08T23:34:44.370+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=800
+time=2026-11-08T23:34:44.595+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=797
+time=2026-11-08T23:34:44.595+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=801
+time=2026-11-08T23:34:44.698+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:44.698+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:45.152+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=803
+time=2026-11-08T23:34:45.152+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:34:45.672+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:45.672+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:45.995+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=804
+time=2026-11-08T23:34:45.995+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=805
+time=2026-11-08T23:34:46.389+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=806
+time=2026-11-08T23:34:46.389+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=807
+time=2026-11-08T23:34:46.420+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:47.033+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:47.033+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:47.489+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:47.489+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:47.971+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=811
+time=2026-11-08T23:34:47.971+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:34:48.392+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=813
+time=2026-11-08T23:34:48.392+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:34:48.544+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=814
+time=2026-11-08T23:34:48.544+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:34:49.317+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:49.317+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:49.317+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:49.317+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:49.636+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:50.167+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=817
+time=2026-11-08T23:34:50.167+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=818
+time=2026-11-08T23:34:50.685+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:50.696+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:51.663+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:51.663+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:51.876+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:52.232+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=822
+time=2026-11-08T23:34:52.232+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=825
+time=2026-11-08T23:34:52.956+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=823
+time=2026-11-08T23:34:52.956+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=826
+time=2026-11-08T23:34:53.314+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=825
+time=2026-11-08T23:34:53.314+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=827
+time=2026-11-08T23:34:53.646+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:54.348+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:54.803+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:55.411+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:55.412+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:56.026+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=831
+time=2026-11-08T23:34:56.026+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:34:56.272+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:56.272+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:34:56.391+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:34:56.558+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=834
+time=2026-11-08T23:34:56.558+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=835
+time=2026-11-08T23:34:56.738+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=835
+time=2026-11-08T23:34:56.738+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=836
+time=2026-11-08T23:34:57.825+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:58.218+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:34:58.584+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=839
+time=2026-11-08T23:34:58.584+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=841
+time=2026-11-08T23:34:59.946+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:34:59.946+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:00.238+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=841
+time=2026-11-08T23:35:00.238+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:00.335+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=843
+time=2026-11-08T23:35:00.335+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:01.180+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=845
+time=2026-11-08T23:35:01.180+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:02.513+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:02.513+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:02.513+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:02.513+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:02.798+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:02.986+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=848
+time=2026-11-08T23:35:02.986+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=849
+time=2026-11-08T23:35:04.442+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:04.442+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:04.605+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:04.606+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:04.677+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=853
+time=2026-11-08T23:35:04.678+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:04.798+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:04.798+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:04.941+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=856
+time=2026-11-08T23:35:04.941+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=857
+time=2026-11-08T23:35:05.325+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=857
+time=2026-11-08T23:35:05.325+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=858
+time=2026-11-08T23:35:06.060+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:06.884+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:07.192+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=860
+time=2026-11-08T23:35:07.192+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=861
+time=2026-11-08T23:35:07.395+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=862
+time=2026-11-08T23:35:07.396+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=863
+time=2026-11-08T23:35:07.461+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:07.859+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:08.576+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:08.577+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:08.953+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=866
+time=2026-11-08T23:35:08.953+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:09.021+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=868
+time=2026-11-08T23:35:09.021+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:09.351+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=869
+time=2026-11-08T23:35:09.351+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:09.384+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:09.384+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:09.384+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:09.384+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:09.386+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:10.445+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:11.192+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:11.192+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:11.449+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=874
+time=2026-11-08T23:35:11.449+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:11.844+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=876
+time=2026-11-08T23:35:11.844+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:12.970+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=878
+time=2026-11-08T23:35:12.970+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:13.221+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:13.221+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:13.221+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:13.221+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:13.226+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=880
+time=2026-11-08T23:35:13.226+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=881
+time=2026-11-08T23:35:13.946+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:14.634+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:14.635+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:15.787+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:15.787+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:15.821+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=885
+time=2026-11-08T23:35:15.821+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:15.897+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=887
+time=2026-11-08T23:35:15.897+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:15.919+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=888
+time=2026-11-08T23:35:15.919+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:16.538+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=890
+time=2026-11-08T23:35:16.538+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:16.758+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:16.758+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:16.758+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:16.758+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:16.758+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:17.139+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:18.263+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:18.945+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:20.482+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:20.482+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:20.784+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=895
+time=2026-11-08T23:35:20.784+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:21.130+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=897
+time=2026-11-08T23:35:21.130+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:21.277+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:21.277+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:21.277+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:22.447+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=898
+time=2026-11-08T23:35:22.447+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=900
+time=2026-11-08T23:35:22.566+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:23.257+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=901
+time=2026-11-08T23:35:23.257+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=903
+time=2026-11-08T23:35:23.309+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:23.909+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=904
+time=2026-11-08T23:35:23.909+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=905
+time=2026-11-08T23:35:24.534+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:25.127+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=907
+time=2026-11-08T23:35:25.127+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:25.135+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:25.135+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:25.633+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:25.633+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:25.673+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=909
+time=2026-11-08T23:35:25.673+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=911
+time=2026-11-08T23:35:26.027+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=911
+time=2026-11-08T23:35:26.027+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=912
+time=2026-11-08T23:35:26.659+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=912
+time=2026-11-08T23:35:26.659+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=913
+time=2026-11-08T23:35:26.673+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:26.831+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:27.594+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:28.090+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:28.090+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:28.503+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:28.587+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:28.773+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=918
+time=2026-11-08T23:35:28.773+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=920
+time=2026-11-08T23:35:29.329+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=921
+time=2026-11-08T23:35:29.329+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=922
+time=2026-11-08T23:35:29.646+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:29.785+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=923
+time=2026-11-08T23:35:29.785+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=925
+time=2026-11-08T23:35:30.147+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:30.770+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=925
+time=2026-11-08T23:35:30.770+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=928
+time=2026-11-08T23:35:31.463+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:31.463+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:32.327+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=928
+time=2026-11-08T23:35:32.327+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:32.610+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=930
+time=2026-11-08T23:35:32.610+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:33.391+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=932
+time=2026-11-08T23:35:33.391+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:33.530+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:33.530+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:33.530+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:33.530+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:34.005+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:34.538+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=934
+time=2026-11-08T23:35:34.538+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=935
+time=2026-11-08T23:35:34.743+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:35.826+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:35.835+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:36.513+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:36.761+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:37.210+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=939
+time=2026-11-08T23:35:37.210+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=942
+time=2026-11-08T23:35:37.571+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:37.658+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=942
+time=2026-11-08T23:35:37.658+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=943
+time=2026-11-08T23:35:38.284+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=943
+time=2026-11-08T23:35:38.284+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=944
+time=2026-11-08T23:35:38.673+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:38.674+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:39.435+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=947
+time=2026-11-08T23:35:39.435+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:39.495+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:39.495+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:39.593+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=950
+time=2026-11-08T23:35:39.594+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:40.365+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=951
+time=2026-11-08T23:35:40.365+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:41.602+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:41.602+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:41.602+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:41.602+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:41.803+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:42.326+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=954
+time=2026-11-08T23:35:42.327+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=955
+time=2026-11-08T23:35:42.969+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:42.969+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:42.983+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:42.984+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:43.046+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=959
+time=2026-11-08T23:35:43.046+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:43.666+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=961
+time=2026-11-08T23:35:43.666+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:44.048+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=962
+time=2026-11-08T23:35:44.048+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:44.056+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:44.056+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:44.056+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:44.056+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:44.080+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=965
+time=2026-11-08T23:35:44.080+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=966
+time=2026-11-08T23:35:44.418+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:45.367+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:45.720+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:46.318+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:46.318+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:46.844+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=969
+time=2026-11-08T23:35:46.844+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:47.174+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=971
+time=2026-11-08T23:35:47.174+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:47.203+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:47.203+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:47.203+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:47.569+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:47.779+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=972
+time=2026-11-08T23:35:47.779+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=975
+time=2026-11-08T23:35:48.409+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=975
+time=2026-11-08T23:35:48.409+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=976
+time=2026-11-08T23:35:48.425+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:49.210+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=978
+time=2026-11-08T23:35:49.210+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=979
+time=2026-11-08T23:35:49.240+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:49.668+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:49.668+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:50.317+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:50.912+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=982
+time=2026-11-08T23:35:50.912+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=984
+time=2026-11-08T23:35:51.444+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=983
+time=2026-11-08T23:35:51.444+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=985
+time=2026-11-08T23:35:51.784+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:51.855+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:52.004+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:52.333+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=987
+time=2026-11-08T23:35:52.333+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:53.361+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:53.361+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:53.424+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=989
+time=2026-11-08T23:35:53.424+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:53.465+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=991
+time=2026-11-08T23:35:53.465+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:53.597+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=992
+time=2026-11-08T23:35:53.597+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:35:54.104+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:54.104+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:54.104+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:54.104+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:54.104+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:54.180+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:55.503+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:55.621+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:56.138+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=997
+time=2026-11-08T23:35:56.138+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:35:56.138+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:56.139+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:56.627+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:56.627+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:35:57.483+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=999
+time=2026-11-08T23:35:57.483+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1003
+time=2026-11-08T23:35:57.493+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:35:57.728+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1002
+time=2026-11-08T23:35:57.728+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1004
+time=2026-11-08T23:35:58.061+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:58.799+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1005
+time=2026-11-08T23:35:58.799+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1007
+time=2026-11-08T23:35:59.038+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1007
+time=2026-11-08T23:35:59.038+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1008
+time=2026-11-08T23:35:59.128+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:35:59.443+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:59.443+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:35:59.687+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:01.040+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1009
+time=2026-11-08T23:36:01.040+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1013
+time=2026-11-08T23:36:01.271+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:01.337+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:01.616+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1012
+time=2026-11-08T23:36:01.616+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1016
+time=2026-11-08T23:36:02.023+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1015
+time=2026-11-08T23:36:02.023+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1017
+time=2026-11-08T23:36:02.095+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1017
+time=2026-11-08T23:36:02.095+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1018
+time=2026-11-08T23:36:02.815+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:02.933+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:02.933+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:03.040+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:03.063+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:04.116+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1019
+time=2026-11-08T23:36:04.116+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1023
+time=2026-11-08T23:36:04.339+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:04.723+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:04.995+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1022
+time=2026-11-08T23:36:04.995+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1028
+time=2026-11-08T23:36:05.222+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1027
+time=2026-11-08T23:36:05.222+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1029
+time=2026-11-08T23:36:05.462+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1029
+time=2026-11-08T23:36:05.462+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1030
+time=2026-11-08T23:36:05.744+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:05.744+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:06.893+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1029
+time=2026-11-08T23:36:06.893+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:36:07.378+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:07.378+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:08.469+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:08.552+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1034
+time=2026-11-08T23:36:08.553+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1035
+time=2026-11-08T23:36:09.104+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:09.112+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1037
+time=2026-11-08T23:36:09.112+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1038
+time=2026-11-08T23:36:09.136+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1038
+time=2026-11-08T23:36:09.136+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1039
+time=2026-11-08T23:36:09.636+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:10.246+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:10.712+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1043
+time=2026-11-08T23:36:10.712+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=WANTED
+time=2026-11-08T23:36:11.057+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1041
+time=2026-11-08T23:36:11.058+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1043
+time=2026-11-08T23:36:11.389+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:11.389+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:12.451+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1046
+time=2026-11-08T23:36:12.451+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1047
+time=2026-11-08T23:36:12.539+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:12.870+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:14.180+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:14.450+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1049
+time=2026-11-08T23:36:14.450+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:36:14.692+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1051
+time=2026-11-08T23:36:14.692+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:36:15.035+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:15.035+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:15.035+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:15.942+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1053
+time=2026-11-08T23:36:15.942+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1054
+time=2026-11-08T23:36:16.103+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:16.164+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1056
+time=2026-11-08T23:36:16.164+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1057
+time=2026-11-08T23:36:16.773+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:16.808+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:18.014+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:18.015+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:18.081+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:18.398+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1059
+time=2026-11-08T23:36:18.398+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1062
+time=2026-11-08T23:36:18.732+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1062
+time=2026-11-08T23:36:18.732+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1063
+time=2026-11-08T23:36:18.998+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:19.263+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1062
+time=2026-11-08T23:36:19.263+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1064
+time=2026-11-08T23:36:19.349+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1065
+time=2026-11-08T23:36:19.349+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1066
+time=2026-11-08T23:36:19.650+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:20.497+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:21.848+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:21.848+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:22.193+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:22.611+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1069
+time=2026-11-08T23:36:22.611+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1073
+time=2026-11-08T23:36:22.855+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1072
+time=2026-11-08T23:36:22.855+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1074
+time=2026-11-08T23:36:22.859+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1072
+time=2026-11-08T23:36:22.859+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1075
+time=2026-11-08T23:36:23.479+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:23.782+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1075
+time=2026-11-08T23:36:23.782+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1078
+time=2026-11-08T23:36:24.619+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:25.228+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:26.041+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:26.041+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:26.590+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1080
+time=2026-11-08T23:36:26.590+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:36:26.741+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:26.741+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:27.046+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1082
+time=2026-11-08T23:36:27.046+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1084
+time=2026-11-08T23:36:27.051+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1083
+time=2026-11-08T23:36:27.051+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1085
+time=2026-11-08T23:36:28.054+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:28.332+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:28.673+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1086
+time=2026-11-08T23:36:28.673+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1088
+time=2026-11-08T23:36:29.277+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1089
+time=2026-11-08T23:36:29.277+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1090
+time=2026-11-08T23:36:29.454+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:30.255+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:30.274+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:30.274+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:30.605+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1092
+time=2026-11-08T23:36:30.605+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:36:30.655+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:30.655+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:31.358+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1094
+time=2026-11-08T23:36:31.358+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1096
+time=2026-11-08T23:36:31.767+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:31.864+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1096
+time=2026-11-08T23:36:31.864+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1099
+time=2026-11-08T23:36:31.924+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1095
+time=2026-11-08T23:36:31.924+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1100
+time=2026-11-08T23:36:32.325+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:34.742+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1102
+time=2026-11-08T23:36:34.742+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1103
+time=2026-11-08T23:36:35.072+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:35.072+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:35.338+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1105
+time=2026-11-08T23:36:35.338+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:36:35.804+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:35.804+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:36.871+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:36.872+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:37.066+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1107
+time=2026-11-08T23:36:37.066+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:36:37.644+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1109
+time=2026-11-08T23:36:37.645+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:36:37.992+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:37.992+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:37.992+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:38.012+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:38.208+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1111
+time=2026-11-08T23:36:38.208+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1112
+time=2026-11-08T23:36:39.230+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:39.231+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:39.402+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1115
+time=2026-11-08T23:36:39.402+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:36:39.816+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:39.816+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:40.195+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1117
+time=2026-11-08T23:36:40.196+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:36:40.245+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1119
+time=2026-11-08T23:36:40.245+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:36:41.607+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:41.607+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:41.607+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:41.607+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:41.843+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1121
+time=2026-11-08T23:36:41.843+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1122
+time=2026-11-08T23:36:42.543+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:42.803+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:43.097+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:43.276+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1125
+time=2026-11-08T23:36:43.276+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:36:44.302+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:44.303+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:44.836+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1127
+time=2026-11-08T23:36:44.836+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:36:44.912+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1129
+time=2026-11-08T23:36:44.912+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:36:45.236+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:45.236+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:45.236+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:45.236+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:45.264+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:46.478+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:46.923+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:46.948+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1131
+time=2026-11-08T23:36:46.948+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1136
+time=2026-11-08T23:36:47.107+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:47.107+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:47.241+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:47.813+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1136
+time=2026-11-08T23:36:47.813+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1139
+time=2026-11-08T23:36:48.347+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1139
+time=2026-11-08T23:36:48.347+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1140
+time=2026-11-08T23:36:48.524+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1140
+time=2026-11-08T23:36:48.525+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1141
+time=2026-11-08T23:36:48.786+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:49.024+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:49.339+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:49.843+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1144
+time=2026-11-08T23:36:49.843+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1145
+time=2026-11-08T23:36:50.281+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1145
+time=2026-11-08T23:36:50.281+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1146
+time=2026-11-08T23:36:50.456+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1147
+time=2026-11-08T23:36:50.456+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1148
+time=2026-11-08T23:36:50.991+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1148
+time=2026-11-08T23:36:50.991+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1149
+time=2026-11-08T23:36:51.009+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:51.090+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:51.478+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:51.920+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:52.432+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:52.556+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1153
+time=2026-11-08T23:36:52.556+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1155
+time=2026-11-08T23:36:53.025+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:53.141+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1156
+time=2026-11-08T23:36:53.141+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1158
+time=2026-11-08T23:36:53.601+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:53.601+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:53.906+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1159
+time=2026-11-08T23:36:53.906+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:36:55.101+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1160
+time=2026-11-08T23:36:55.101+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:36:55.245+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1162
+time=2026-11-08T23:36:55.245+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:36:55.269+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:55.269+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:55.269+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:55.269+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:55.366+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1164
+time=2026-11-08T23:36:55.366+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1165
+time=2026-11-08T23:36:55.810+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:57.079+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:57.080+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:57.716+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:36:57.717+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:36:57.878+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1169
+time=2026-11-08T23:36:57.878+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:36:58.033+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1170
+time=2026-11-08T23:36:58.033+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:36:58.128+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:36:58.128+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:58.128+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:36:58.459+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1173
+time=2026-11-08T23:36:58.459+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1174
+time=2026-11-08T23:36:59.266+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1173
+time=2026-11-08T23:36:59.266+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1175
+time=2026-11-08T23:36:59.283+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:00.007+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:00.007+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:00.327+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:00.569+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:00.570+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:01.040+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1179
+time=2026-11-08T23:37:01.040+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:37:01.284+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1181
+time=2026-11-08T23:37:01.284+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:37:01.599+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1182
+time=2026-11-08T23:37:01.599+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:37:01.625+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1184
+time=2026-11-08T23:37:01.625+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:37:01.955+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:01.955+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:01.955+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:01.955+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:01.955+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:02.170+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:03.203+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:03.369+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:03.657+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:04.511+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:04.676+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1189
+time=2026-11-08T23:37:04.676+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1192
+time=2026-11-08T23:37:05.312+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1192
+time=2026-11-08T23:37:05.312+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1193
+time=2026-11-08T23:37:05.363+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1193
+time=2026-11-08T23:37:05.363+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1194
+time=2026-11-08T23:37:05.654+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1195
+time=2026-11-08T23:37:05.654+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1196
+time=2026-11-08T23:37:05.942+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:06.228+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:06.430+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1195
+time=2026-11-08T23:37:06.430+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1199
+time=2026-11-08T23:37:06.565+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:07.447+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:07.448+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:07.851+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1202
+time=2026-11-08T23:37:07.851+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:37:08.518+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1203
+time=2026-11-08T23:37:08.518+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:37:08.754+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:08.754+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:08.754+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:09.043+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1206
+time=2026-11-08T23:37:09.043+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1207
+time=2026-11-08T23:37:09.046+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:09.976+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:09.977+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:10.194+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:10.195+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:10.599+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1211
+time=2026-11-08T23:37:10.599+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:37:10.912+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1212
+time=2026-11-08T23:37:10.912+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:37:11.949+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1214
+time=2026-11-08T23:37:11.949+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:37:11.995+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:11.995+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:11.995+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:11.995+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:12.226+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:12.516+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1215
+time=2026-11-08T23:37:12.516+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1217
+time=2026-11-08T23:37:13.517+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:13.784+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:14.119+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:14.119+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:14.712+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1221
+time=2026-11-08T23:37:14.712+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:37:14.728+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1223
+time=2026-11-08T23:37:14.728+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:37:14.804+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:14.804+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:14.804+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:15.036+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:15.521+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1224
+time=2026-11-08T23:37:15.521+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1226
+time=2026-11-08T23:37:15.623+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1227
+time=2026-11-08T23:37:15.623+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1228
+time=2026-11-08T23:37:16.117+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1229
+time=2026-11-08T23:37:16.117+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1230
+time=2026-11-08T23:37:16.145+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:16.392+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:17.599+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:17.600+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:17.945+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:18.799+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1234
+time=2026-11-08T23:37:18.799+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1237
+time=2026-11-08T23:37:18.948+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1235
+time=2026-11-08T23:37:18.948+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1238
+time=2026-11-08T23:37:18.975+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:19.139+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1237
+time=2026-11-08T23:37:19.139+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1239
+time=2026-11-08T23:37:19.549+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1238
+time=2026-11-08T23:37:19.549+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1240
+time=2026-11-08T23:37:19.861+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:20.652+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:22.487+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1244
+time=2026-11-08T23:37:22.487+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1245
+time=2026-11-08T23:37:22.503+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1246
+time=2026-11-08T23:37:22.503+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=WANTED
+time=2026-11-08T23:37:23.178+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:23.178+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:24.399+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1246
+time=2026-11-08T23:37:24.400+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:37:24.790+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:24.790+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:24.790+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:25.340+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:25.444+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1249
+time=2026-11-08T23:37:25.444+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1250
+time=2026-11-08T23:37:25.999+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:26.242+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:26.475+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1253
+time=2026-11-08T23:37:26.476+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=0 state=HELD
+time=2026-11-08T23:37:26.546+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1254
+time=2026-11-08T23:37:26.546+01:00 level=INFO msg=REPLY_DEFERRED node_id=2 peer_id=1 state=HELD
+time=2026-11-08T23:37:26.908+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:26.909+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:27.564+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:27.564+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:27.564+01:00 level=INFO msg=DEFERRED_REPLY_SENT node_id=2
+time=2026-11-08T23:37:27.637+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1258
+time=2026-11-08T23:37:27.637+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1259
+time=2026-11-08T23:37:27.817+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1258
+time=2026-11-08T23:37:27.817+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1260
+time=2026-11-08T23:37:28.190+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:28.847+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:29.569+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:29.891+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:29.892+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:31.086+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:31.162+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1264
+time=2026-11-08T23:37:31.162+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1267
+time=2026-11-08T23:37:31.373+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:31.474+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1265
+time=2026-11-08T23:37:31.474+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1268
+time=2026-11-08T23:37:32.102+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=0 timestamp=1267
+time=2026-11-08T23:37:32.102+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=0 timestamp=1269
+time=2026-11-08T23:37:32.815+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:32.836+01:00 level=INFO msg=ENTER_CRITICAL_SECTION! node_id=2
+time=2026-11-08T23:37:32.949+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
+time=2026-11-08T23:37:33.017+01:00 level=INFO msg=EXIT_CRITICAL_SECTION node_id=2 state=RELEASED
+time=2026-11-08T23:37:33.898+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1274
+time=2026-11-08T23:37:33.898+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1275
+time=2026-11-08T23:37:34.107+01:00 level=INFO msg=REQUEST_RECEIVED node_id=2 peer_id=1 timestamp=1276
+time=2026-11-08T23:37:34.107+01:00 level=INFO msg=REPLY_SENT node_id=2 peer_id=1 timestamp=1277
+time=2026-11-08T23:37:34.967+01:00 level=INFO msg=REQUESTING_CRITICAL_SECTION node_id=2 state=WANTED
