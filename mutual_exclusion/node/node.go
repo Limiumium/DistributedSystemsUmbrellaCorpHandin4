@@ -205,8 +205,8 @@ func main() {
 			"NODE_SHUTTING_DOWN",
 			"node_id", server.id,
 		)
-
-		grpcServer.GracefulStop()
+		disconnectMe(server)
+		grpcServer.Stop()
 	}()
 
 	if err := grpcServer.Serve(listener); err != nil {
