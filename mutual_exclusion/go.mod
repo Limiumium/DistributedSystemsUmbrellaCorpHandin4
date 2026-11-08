@@ -1,4 +1,4 @@
-module chitchat
+module mutual_exclusion
 
 go 1.27.0
 

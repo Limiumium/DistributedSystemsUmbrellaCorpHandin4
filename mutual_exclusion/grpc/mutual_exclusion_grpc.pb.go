@@ -4,7 +4,7 @@
 // - protoc             v7.36.0
 // source: grpc/mutual_exclusion.proto
 
-package chitchat
+package mutual_exclusion
 
 import (
 	context "context"

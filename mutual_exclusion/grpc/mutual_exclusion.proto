@@ -1,12 +1,14 @@
 
 syntax = "proto3";
-option go_package = "chitchat/grpc/chitchat";
+option go_package = "mutual_exclusion/grpc/mutual_exclusion";
 
 message Nothing {}
 
 message ChatMessage {
     uint64 id = 1;
-    uint64 timestamp = 2;
+    bool isRequest = 2;
+    bool hasDisconnected = 3;
+    uint64 timestamp = 4;
 }
 
 service ChatService {
