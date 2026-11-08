@@ -78,7 +78,7 @@ func main() {
 	grpcServer.Serve(listener)
 }
 
-func (s *Server) ChatStream(chatStream pb.ChatService_ChatStreamServer) error {
+func (s *Server) ChaaaatStream(chatStream pb.ChatService_ChatStreamServer) error {
 	//get userName from metaData
 	md, _ := metadata.FromIncomingContext(chatStream.Context())
 	userName := md.Get("username")[0]

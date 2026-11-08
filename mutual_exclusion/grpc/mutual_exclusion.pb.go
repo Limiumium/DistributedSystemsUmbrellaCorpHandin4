@@ -4,7 +4,7 @@
 // 	protoc        v7.36.0
 // source: grpc/mutual_exclusion.proto
 
-package chitchat
+package mutual_exclusion
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -60,7 +60,8 @@ func (*Nothing) Descriptor() ([]byte, []int) {
 type ChatMessage struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
 	Id            uint64                 `protobuf:"varint,1,opt,name=id,proto3" json:"id,omitempty"`
-	Timestamp     uint64                 `protobuf:"varint,2,opt,name=timestamp,proto3" json:"timestamp,omitempty"`
+	IsRequest     bool                   `protobuf:"varint,2,opt,name=isRequest,proto3" json:"isRequest,omitempty"`
+	Timestamp     uint64                 `protobuf:"varint,3,opt,name=timestamp,proto3" json:"timestamp,omitempty"`
 	unknownFields protoimpl.UnknownFields
 	sizeCache     protoimpl.SizeCache
 }
@@ -102,6 +103,13 @@ func (x *ChatMessage) GetId() uint64 {
 	return 0
 }
 
+func (x *ChatMessage) GetIsRequest() bool {
+	if x != nil {
+		return x.IsRequest
+	}
+	return false
+}
+
 func (x *ChatMessage) GetTimestamp() uint64 {
 	if x != nil {
 		return x.Timestamp
@@ -114,13 +122,14 @@ var File_grpc_mutual_exclusion_proto protoreflect.FileDescriptor
 const file_grpc_mutual_exclusion_proto_rawDesc = "" +
 	"\n" +
 	"\x1bgrpc/mutual_exclusion.proto\"\t\n" +
-	"\aNothing\";\n" +
+	"\aNothing\"Y\n" +
 	"\vChatMessage\x12\x0e\n" +
 	"\x02id\x18\x01 \x01(\x04R\x02id\x12\x1c\n" +
-	"\ttimestamp\x18\x02 \x01(\x04R\ttimestamp2;\n" +
+	"\tisRequest\x18\x02 \x01(\bR\tisRequest\x12\x1c\n" +
+	"\ttimestamp\x18\x03 \x01(\x04R\ttimestamp2;\n" +
 	"\vChatService\x12,\n" +
 	"\n" +
-	"ChatStream\x12\f.ChatMessage\x1a\f.ChatMessage(\x010\x01B\x18Z\x16chitchat/grpc/chitchatb\x06proto3"
+	"ChatStream\x12\f.ChatMessage\x1a\f.ChatMessage(\x010\x01B(Z&mutual_exclusion/grpc/mutual_exclusionb\x06proto3"
 
 var (
 	file_grpc_mutual_exclusion_proto_rawDescOnce sync.Once
