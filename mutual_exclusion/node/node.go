@@ -106,6 +106,7 @@ func main() {
 
 	//create clients for existing servers and set the listener for our own server
 	var listener net.Listener
+	var processes uint64
 	for i := range MAX_NB_NODES {
 		address := "localhost:505" + strconv.Itoa(i)
 		//fmt.Println("checking: " + address)
@@ -149,6 +150,8 @@ func main() {
 				}
 			}()
 
+			processes++
+
 		} else if server.id == uint64(i) {
 			listener = tmpListener
 			//fmt.Println("using: " + address)
@@ -177,6 +180,12 @@ func main() {
 
 	//Store logger in the Server struct
 	server.logger = logger
+
+	server.logger.Info(
+		"CURRENT_PROCESSES",
+		"amount", processes,
+		"node_id", server.id,
+	)
 
 	//initialize node state and maps
 	initialize(server)
@@ -481,6 +490,11 @@ func handleDisconnection(s *Server, id uint64) {
 	fmt.Println("User disconnected. id: " + strconv.FormatUint(id, 10))
 	delete(s.allStreams, id)
 
+	s.logger.Info(
+		"USER_DISCONNECTED_ID:"+strconv.FormatUint(id, 10),
+		"node_id", s.id,
+	)
+
 	//in case we are waiting for a grant from the disconnected node, we delete
 	// it from the map and decrement the number of grants we are waiting for
 	if s.outstandingGrants != nil {
@@ -501,6 +515,11 @@ func (s *Server) ChatStream(chatStream pb.ChatService_ChatStreamServer) error {
 	s.mu.Lock()
 	s.allStreams[id] = chatStream
 	s.mu.Unlock()
+
+	s.logger.Info(
+		"USER_CONNECTED_ID:"+strconv.FormatUint(id, 10),
+		"node_id", s.id,
+	)
 
 	for {
 		msg, err := chatStream.Recv()
