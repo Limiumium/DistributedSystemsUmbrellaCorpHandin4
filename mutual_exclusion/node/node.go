@@ -345,6 +345,11 @@ func receive(s *Server, msg *pb.ChatMessage) {
 	if s.state == "HELD" ||
 		(s.state == "WANTED" && compare_priority(s, msg)) {
 		s.queue = append(s.queue, s.allStreams[msg.Id])
+
+		s.timeMu.Lock()
+		s.lamportTime = max(s.lamportTime, msg.Timestamp) + 1
+		s.timeMu.Unlock()
+
 		s.logger.Info(
 			"REPLY_DEFERRED",
 			"node_id", s.id,
